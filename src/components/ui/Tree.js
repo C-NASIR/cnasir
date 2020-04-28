@@ -13,18 +13,66 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 //Tree function
-export default function Tree() {
+export default function Tree(props) {
   const classes = useStyles();
+  const down = props.down ? true : false;
   return (
-    <Grid container justify="center">
-      <Grid item>
-        <Leaf />
+    <Grid container direction="column">
+      <Grid>
+        <Grid container justify="center" direction={down ? "column" : "row"}>
+          <Grid item>
+            <Leaf
+              direction={down}
+              down={down}
+              year="2019"
+              company="Connecting Cultures"
+              position="Developer Intern"
+            />
+          </Grid>
+          {down ? null : (
+            <Grid item>
+              <div className={classes.lineTree} />
+            </Grid>
+          )}
+          <Grid item style={{ alignSelf: "end" }}>
+            <Leaf
+              direction={down}
+              right={down ? false : true}
+              down={down}
+              year="2018 - 2020"
+              company="Connecting Cultures"
+              position="Medical Interpreter"
+            />
+          </Grid>
+        </Grid>
       </Grid>
-      <Grid item>
-        <div className={classes.lineTree} />
-      </Grid>
-      <Grid item style={{ alignSelf: "end" }}>
-        <Leaf left />
+      <Grid>
+        <Grid container justify="center" direction={down ? "column" : "row"}>
+          <Grid item>
+            <Leaf
+              direction={down}
+              down={down}
+              year="2018"
+              company="GBAPS"
+              position="Avid Tutor"
+            />
+          </Grid>
+          {down ? null : (
+            <Grid item>
+              <div className={classes.lineTree} />
+            </Grid>
+          )}
+          <Grid item style={{ alignSelf: "end" }}>
+            <Leaf
+              direction={down}
+              down={down}
+              right={down ? false : true}
+              year="2017"
+              company="Walmart"
+              position="Floor Associate"
+            />
+          </Grid>
+        </Grid>
       </Grid>
     </Grid>
   );

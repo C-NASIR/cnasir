@@ -18,15 +18,27 @@ const useStyles = makeStyles((theme) => ({
     height: ".5em",
     alignSelf: "center",
   },
+  year: {
+    fontFamily: "Viga, sans-serif",
+    fontSize: "2.5em",
+  },
 }));
 
 //Lead function
 export default function Leaf(props) {
   const classes = useStyles();
-  const connector = <Grid className={classes.connector} />;
+  const connector = (
+    <Grid
+      className={classes.connector}
+      style={{
+        width: props.down ? ".5em" : "10em",
+        height: props.down ? "10em" : ".5em",
+      }}
+    />
+  );
 
   const card = (
-    <Grid>
+    <Grid style={{ alignSelf: props.down ? "center" : "" }}>
       <Grid
         container
         direction="column"
@@ -35,23 +47,24 @@ export default function Leaf(props) {
         className={classes.card}
       >
         <Grid item>
-          <div> 2018 </div>
+          <div className={classes.year}> {props.year} </div>
         </Grid>
         <Grid item>
-          <div> 2018 - 2019</div>
+          <div> Company : {props.company}</div>
         </Grid>
         <Grid item>
-          <div> Title : IOS Developer </div>
+          <div> Position : {props.position} </div>
         </Grid>
       </Grid>
     </Grid>
   );
 
-  const first = props.right ? card : props.left ? connector : card;
-  const second = props.right ? connector : props.left ? card : connector;
+  const first = props.right ? connector : props.left ? card : card;
+  const second = props.right ? card : props.left ? connector : connector;
   return (
-    <Grid container>
-      {first} {second}
+    <Grid container direction={props.down ? "column" : "row"}>
+      {first}
+      {second}
     </Grid>
   );
 }

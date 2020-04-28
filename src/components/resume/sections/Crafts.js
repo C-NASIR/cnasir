@@ -1,31 +1,14 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
 
 //Importing my own components
 import ListBuilder from "../ListBuilder";
-
-//Crafts Styles
-const useStyles = makeStyles((theme) => ({
-  subtitle: {
-    color: "white",
-    fontSize: "5rem",
-    fontFamily: "Bubblegum Sans, cursive;",
-    marginBottom: ".5em",
-  },
-}));
+import SectionTitle from "../../ui/SectionTitle";
 
 export default function Crafts(props) {
-  const classes = useStyles();
   return (
     <>
-      <Grid container direction="row" style={{ justifyContent: "center" }}>
-        <Typography variant="h4" className={classes.subtitle}>
-          Crafts
-        </Typography>
-      </Grid>
-
+      <SectionTitle title="Crafts" />
       {/* {// Skills Start Here */}
       <Grid container>
         <Grid item container direction="column">

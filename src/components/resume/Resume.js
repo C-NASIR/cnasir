@@ -6,10 +6,11 @@ import Grid from "@material-ui/core/Grid";
 import Heading from "./sections/Heading";
 import Bio from "./sections/Bio";
 import Crafts from "./sections/Crafts";
+import History from "./sections/History";
+import Footer from "./sections/Footer";
 
 //my components
 import ProgressBar from "./ProgressBar";
-import Tree from "../ui/Tree";
 import Divider from "../ui/Divider";
 
 export default function Resume() {
@@ -45,12 +46,13 @@ export default function Resume() {
 
         <Divider style={{ marginTop: "5em" }} />
 
-        <Grid container justify="center">
+        <Grid container style={{ justifyContent: "center" }}>
           <Grid item>
-            <Tree />
+            <History />
           </Grid>
         </Grid>
       </Grid>
+      <Footer />
     </>
   );
 }
