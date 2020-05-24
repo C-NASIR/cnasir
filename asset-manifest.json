@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/cnasir/static/js/main.63c98687.chunk.js",
-    "main.js.map": "/cnasir/static/js/main.63c98687.chunk.js.map",
-    "runtime-main.js": "/cnasir/static/js/runtime-main.ed43d4da.js",
-    "runtime-main.js.map": "/cnasir/static/js/runtime-main.ed43d4da.js.map",
-    "static/js/2.5e1da98d.chunk.js": "/cnasir/static/js/2.5e1da98d.chunk.js",
-    "static/js/2.5e1da98d.chunk.js.map": "/cnasir/static/js/2.5e1da98d.chunk.js.map",
-    "index.html": "/cnasir/index.html",
-    "precache-manifest.c15749f935a9d6f0e1d39173a8046000.js": "/cnasir/precache-manifest.c15749f935a9d6f0e1d39173a8046000.js",
-    "service-worker.js": "/cnasir/service-worker.js",
-    "static/js/2.5e1da98d.chunk.js.LICENSE.txt": "/cnasir/static/js/2.5e1da98d.chunk.js.LICENSE.txt",
-    "static/media/Nasir.jpg": "/cnasir/static/media/Nasir.ca35c262.jpg",
-    "static/media/wearingMask.jpg": "/cnasir/static/media/wearingMask.3c00f9c5.jpg"
+    "main.js": "/static/js/main.63c98687.chunk.js",
+    "main.js.map": "/static/js/main.63c98687.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a49db578.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a49db578.js.map",
+    "static/js/2.5e1da98d.chunk.js": "/static/js/2.5e1da98d.chunk.js",
+    "static/js/2.5e1da98d.chunk.js.map": "/static/js/2.5e1da98d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c480233eb412ea85f74f03ea066de665.js": "/precache-manifest.c480233eb412ea85f74f03ea066de665.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.5e1da98d.chunk.js.LICENSE.txt": "/static/js/2.5e1da98d.chunk.js.LICENSE.txt",
+    "static/media/Nasir.jpg": "/static/media/Nasir.ca35c262.jpg",
+    "static/media/wearingMask.jpg": "/static/media/wearingMask.3c00f9c5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed43d4da.js",
+    "static/js/runtime-main.a49db578.js",
     "static/js/2.5e1da98d.chunk.js",
     "static/js/main.63c98687.chunk.js"
   ]
