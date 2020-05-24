@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/www.cnasir.dev/precache-manifest.50ea2c93b31e32559eccdbb5c2542237.js"
+  "/www.cnasir.dev/precache-manifest.54af43c987940cfaa074223561c932d8.js"
 );
 
 self.addEventListener('message', (event) => {
