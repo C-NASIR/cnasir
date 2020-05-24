@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/cnasir/static/js/main.2634f94d.chunk.js",
+    "main.js.map": "/cnasir/static/js/main.2634f94d.chunk.js.map",
+    "runtime-main.js": "/cnasir/static/js/runtime-main.ed43d4da.js",
+    "runtime-main.js.map": "/cnasir/static/js/runtime-main.ed43d4da.js.map",
+    "static/js/2.5e1da98d.chunk.js": "/cnasir/static/js/2.5e1da98d.chunk.js",
+    "static/js/2.5e1da98d.chunk.js.map": "/cnasir/static/js/2.5e1da98d.chunk.js.map",
+    "index.html": "/cnasir/index.html",
+    "precache-manifest.6468fbe239b483977a13fce2b50b42dd.js": "/cnasir/precache-manifest.6468fbe239b483977a13fce2b50b42dd.js",
+    "service-worker.js": "/cnasir/service-worker.js",
+    "static/js/2.5e1da98d.chunk.js.LICENSE.txt": "/cnasir/static/js/2.5e1da98d.chunk.js.LICENSE.txt",
+    "static/media/Nasir.jpg": "/cnasir/static/media/Nasir.ca35c262.jpg",
+    "static/media/wearingMask.jpg": "/cnasir/static/media/wearingMask.3c00f9c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed43d4da.js",
+    "static/js/2.5e1da98d.chunk.js",
+    "static/js/main.2634f94d.chunk.js"
+  ]
+}
