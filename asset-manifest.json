@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/cnasir/static/js/main.2634f94d.chunk.js",
-    "main.js.map": "/cnasir/static/js/main.2634f94d.chunk.js.map",
-    "runtime-main.js": "/cnasir/static/js/runtime-main.ed43d4da.js",
-    "runtime-main.js.map": "/cnasir/static/js/runtime-main.ed43d4da.js.map",
-    "static/js/2.5e1da98d.chunk.js": "/cnasir/static/js/2.5e1da98d.chunk.js",
-    "static/js/2.5e1da98d.chunk.js.map": "/cnasir/static/js/2.5e1da98d.chunk.js.map",
-    "index.html": "/cnasir/index.html",
-    "precache-manifest.6468fbe239b483977a13fce2b50b42dd.js": "/cnasir/precache-manifest.6468fbe239b483977a13fce2b50b42dd.js",
-    "service-worker.js": "/cnasir/service-worker.js",
-    "static/js/2.5e1da98d.chunk.js.LICENSE.txt": "/cnasir/static/js/2.5e1da98d.chunk.js.LICENSE.txt",
-    "static/media/Nasir.jpg": "/cnasir/static/media/Nasir.ca35c262.jpg",
-    "static/media/wearingMask.jpg": "/cnasir/static/media/wearingMask.3c00f9c5.jpg"
+    "main.js": "/www.cnasir.dev/static/js/main.2634f94d.chunk.js",
+    "main.js.map": "/www.cnasir.dev/static/js/main.2634f94d.chunk.js.map",
+    "runtime-main.js": "/www.cnasir.dev/static/js/runtime-main.fca78a0d.js",
+    "runtime-main.js.map": "/www.cnasir.dev/static/js/runtime-main.fca78a0d.js.map",
+    "static/js/2.5e1da98d.chunk.js": "/www.cnasir.dev/static/js/2.5e1da98d.chunk.js",
+    "static/js/2.5e1da98d.chunk.js.map": "/www.cnasir.dev/static/js/2.5e1da98d.chunk.js.map",
+    "index.html": "/www.cnasir.dev/index.html",
+    "precache-manifest.50ea2c93b31e32559eccdbb5c2542237.js": "/www.cnasir.dev/precache-manifest.50ea2c93b31e32559eccdbb5c2542237.js",
+    "service-worker.js": "/www.cnasir.dev/service-worker.js",
+    "static/js/2.5e1da98d.chunk.js.LICENSE.txt": "/www.cnasir.dev/static/js/2.5e1da98d.chunk.js.LICENSE.txt",
+    "static/media/Nasir.jpg": "/www.cnasir.dev/static/media/Nasir.ca35c262.jpg",
+    "static/media/wearingMask.jpg": "/www.cnasir.dev/static/media/wearingMask.3c00f9c5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed43d4da.js",
+    "static/js/runtime-main.fca78a0d.js",
     "static/js/2.5e1da98d.chunk.js",
     "static/js/main.2634f94d.chunk.js"
   ]
