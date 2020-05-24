@@ -43,7 +43,7 @@ export default function Footer() {
       <div className={classes.heading} style={{ paddingBottom: "5em" }}>
         <IconButton
           aria-label="Going to Github Url"
-          size="large"
+          size="medium"
           style={{ color: "white" }}
           component={"a"}
           rel="noopener noreferrer"
@@ -55,7 +55,7 @@ export default function Footer() {
         </IconButton>
         <IconButton
           aria-label="Going to twitter url"
-          size="large"
+          size="medium"
           style={{ color: "white" }}
           component={"a"}
           rel="noopener noreferrer"
