@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e92c740ae82c4850096849bd7db3b9c9",
+    "revision": "1fa0e5d74582a00064687dc5d384f616",
     "url": "/www.cnasir.dev/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/www.cnasir.dev/static/js/2.5e1da98d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "789ea4937b7733c0c31c",
-    "url": "/www.cnasir.dev/static/js/main.2634f94d.chunk.js"
+    "revision": "8e19cdfd643ab9a72802",
+    "url": "/www.cnasir.dev/static/js/main.63c98687.chunk.js"
   },
   {
     "revision": "c2e8cb5afb09fe2ce7cc",
