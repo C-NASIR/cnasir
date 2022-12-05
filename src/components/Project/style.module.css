@@ -1,0 +1,17 @@
+.project {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: "green";
+  height: 30em;
+}
+
+.frame {
+  height: 30em;
+  width: 50%;
+}
+
+.frame > iframe {
+  border: 1px solid black;
+  padding: 2em;
+  border-radius: 10px;
+}
