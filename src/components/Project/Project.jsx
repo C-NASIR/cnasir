@@ -27,7 +27,7 @@ const Project = ({ websiteUrl }) => {
         <button> Visit The Web Application </button>
       </div>
       <div className={styles.frame}>
-        <iframe src={websiteUrl} width={"100%"} height={"100%"} />
+        <iframe src={websiteUrl} />
       </div>
     </div>
   );

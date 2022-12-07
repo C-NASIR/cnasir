@@ -1,17 +1,49 @@
 .video {
   display: flex;
   justify-content: space-evenly;
-  background-color: "green";
   height: 30em;
 }
 
+.info {
+  height: 100%;
+  width: 40%;
+  overflow: clip;
+}
+
+.linksList {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.listItem {
+  background-color: orange;
+  padding: 1em 2em;
+}
+
+.listItem:hover {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
 .frame {
-  height: 30em;
-  width: 50%;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .frame > iframe {
   border: 1px solid black;
-  padding: 2em;
-  border-radius: 10px;
+  border-radius: 5px;
+  width: 100%;
+  height: 80%;
 }

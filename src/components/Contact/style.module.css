@@ -1,0 +1,14 @@
+.contact {
+  width: 70%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.quote {
+  font-family: fantasy;
+  text-align-last: center;
+}
+
+.text {
+  line-height: 2em;
+}

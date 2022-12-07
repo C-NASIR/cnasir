@@ -1,8 +1,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 15em;
-  bottom-margin: 10em;
+  gap: 10em;
   width: 100%;
   height: auto;
 }

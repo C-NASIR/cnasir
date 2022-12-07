@@ -9,13 +9,13 @@ import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div style={{ display: "flex", flexDirection: "column", gap: "10em" }}>
       <IntroPage />
       <ProjectPage />
       <Videos />
       <Skills />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }

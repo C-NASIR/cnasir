@@ -1,0 +1,22 @@
+.skill {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  width: 40%;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+.image {
+  width: 40%;
+}
+
+.staticImage {
+  border-radius: 0.5em;
+}
