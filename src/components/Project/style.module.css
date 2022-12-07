@@ -1,8 +1,40 @@
 .project {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: "green";
-  height: 30em;
+  gap: 1em;
+}
+
+.info {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.sourcecode {
+  text-decoration: none;
+}
+
+.weblink {
+  width: 100%;
+  background-color: cornflowerblue;
+  padding: 1em 2em;
+  color: white;
+}
+
+.weblink:hover {
+  cursor: pointer;
 }
 
 .frame {
