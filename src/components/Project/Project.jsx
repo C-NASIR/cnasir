@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollReveal from "../ScrollReveal/ScrollReveal";
 import Pill from "../pill/Pill";
 import * as styles from "./style.module.css";
 
@@ -13,18 +14,30 @@ const Project = ({
   return (
     <div className={styles.project}>
       <div className={styles.info}>
-        <h2> {title} </h2>
-        <p> {description} </p>
-        <h3 className={styles.usesTitle}> Uses </h3>
-        <ul className={styles.list}>
-          {uses.map((text, index) => (
-            <li key={index}> {++index + ": " + text}</li>
-          ))}
-        </ul>
-        <p className={styles.notice}>
-          This Project is Interactive. go a head. Try it!
-        </p>
-        <h3> Tech Stack </h3>
+        <ScrollReveal>
+          <h2> {title} </h2>
+        </ScrollReveal>
+        <ScrollReveal>
+          <p> {description} </p>
+        </ScrollReveal>
+        <ScrollReveal>
+          <h3 className={styles.usesTitle}> Uses </h3>
+        </ScrollReveal>
+        <ScrollReveal>
+          <ul className={styles.list}>
+            {uses.map((text, index) => (
+              <li key={index}> {++index + ": " + text}</li>
+            ))}
+          </ul>
+        </ScrollReveal>
+        <ScrollReveal>
+          <p className={styles.notice}>
+            This Project is Interactive. go a head. Try it!
+          </p>
+        </ScrollReveal>
+        <ScrollReveal>
+          <h3> Tech Stack </h3>
+        </ScrollReveal>
         <div className={styles.tech}>
           {skills.map((text, index) => (
             <Pill text={text} key={index} />

@@ -63,7 +63,13 @@
   }
 
   .frame {
+    display: flex;
+    justify-content: flex-start;
     height: 30em;
     width: 90%;
+  }
+
+  .frame > iframe {
+    height: 25em;
   }
 }

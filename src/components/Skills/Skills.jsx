@@ -56,6 +56,7 @@ const Skills = () => {
     <div className={styles.skills}>
       {data.map((obj) => (
         <Skill
+          key={obj.title}
           title={obj.title}
           description={obj.description}
           skills={obj.skills}

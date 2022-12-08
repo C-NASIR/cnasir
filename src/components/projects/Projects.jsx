@@ -12,6 +12,7 @@ const projectData = [
     uses: [
       "Choose from favorite artist to sample their music",
       "Search your favorite artist to sample their music",
+      "The page is responsive and favorite artists might not show",
     ],
     sourceUrl: "https://github.com/C-NASIR/musica",
   },
@@ -29,8 +30,6 @@ const projectData = [
     sourceUrl: "https://movies-psi-two.vercel.app/",
   },
 ];
-
-// websiteUrl={"https://movies-psi-two.vercel.app/"
 
 const Projects = () => {
   return (
