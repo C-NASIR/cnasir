@@ -15,8 +15,10 @@
 
 .image {
   width: 40%;
+  text-align: center;
 }
 
 .staticImage {
   border-radius: 0.5em;
+  width: 30em;
 }

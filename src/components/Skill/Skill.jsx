@@ -5,30 +5,24 @@ import Pill from "../pill/Pill";
 
 import * as styles from "./style.module.css";
 
-const Skill = ({ title }) => {
+const Skill = ({ title, description, skills = [], name }) => {
   return (
     <div className={styles.skill}>
       <div className={styles.info}>
         <div>
           <h2> {title} Skills </h2>
-          <p>
-            These are the technologies and programming languages I have used
-            developing front end applications. <br />
-          </p>
+          <p>{description}</p>
+          <p> {name} </p>
         </div>
         <div className={styles.pills}>
-          <Pill text="HTML5" />
-          <Pill text="JavaScript" />
-          <Pill text="CSS3" />
-          <Pill text="DOM JavaScript" />
-          <Pill text="ReactJS" />
-          <Pill text="Gatby" />
-          <Pill text="NextJS" />
+          {skills.map((text) => (
+            <Pill text={text} />
+          ))}
         </div>
       </div>
       <div className={styles.image}>
         <StaticImage
-          src="../../images/web-design.jpg"
+          src="../../images/frontend.svg"
           alt="web design example"
           className={styles.staticImage}
         />
