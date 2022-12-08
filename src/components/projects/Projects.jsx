@@ -7,10 +7,11 @@ const projectData = [
     websiteUrl: "https://c-nasir.github.io/musica/",
     skills: ["Create React App", "JavaScript", "Material UI", "Rest API"],
     title: "Musica",
-    description: "A simplified music application",
+    description:
+      "A simplified music application that you can use to sample new music or existing ones",
     uses: [
-      "You can choose from the favorite artists",
-      "You can search your favorite artist",
+      "Choose from favorite artist to sample their music",
+      "Search your favorite artist to sample their music",
     ],
     sourceUrl: "https://github.com/C-NASIR/musica",
   },
@@ -18,11 +19,12 @@ const projectData = [
     websiteUrl: "https://movies-psi-two.vercel.app/",
     skills: ["NextJS", "JavaScript", "Tailwind CSS", "Rest API"],
     title: "Movica",
-    description: "A Netflix like application",
+    description:
+      "A Netflix like application that you can use to discover new movies and tv shows in many different genres",
     uses: [
-      "You can click on video templates",
-      "You can scroll vertically to see all genres",
-      "You can scroll horizontally to see all movies in specific genre",
+      "Scroll down to see all the genres and their movies",
+      "Scroll horizontally to see all the movies in specific genre",
+      "Click on movie thumbnail to watch trailer and get movie recommendations ",
     ],
     sourceUrl: "https://movies-psi-two.vercel.app/",
   },

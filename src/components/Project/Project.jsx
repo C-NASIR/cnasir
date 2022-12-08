@@ -15,19 +15,21 @@ const Project = ({
       <div className={styles.info}>
         <h2> {title} </h2>
         <p> {description} </p>
-        <h3> Uses </h3>
+        <h3 className={styles.usesTitle}> Uses </h3>
         <ul className={styles.list}>
           {uses.map((text, index) => (
-            <li key={index}> {text}</li>
+            <li key={index}> {++index + ": " + text}</li>
           ))}
         </ul>
+        <p className={styles.notice}>
+          This Project is Interactive. go a head. Try it!
+        </p>
         <h3> Tech Stack </h3>
         <div className={styles.tech}>
           {skills.map((text, index) => (
             <Pill text={text} key={index} />
           ))}
         </div>
-        <p> It is Interactive. Go a head. </p>
         <a
           className={styles.sourcecode}
           href={sourceUrl}
@@ -46,7 +48,7 @@ const Project = ({
         </a>
       </div>
       <div className={styles.frame}>
-        <iframe src={websiteUrl} />
+        <iframe title={title} src={websiteUrl} />
       </div>
     </div>
   );

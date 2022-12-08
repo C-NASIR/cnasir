@@ -9,7 +9,9 @@ const Video = ({
   video2,
   video3,
   video4,
+  video5,
   courseUrl,
+  iframeUrl,
   color = "orange",
 }) => {
   return (
@@ -27,17 +29,6 @@ const Video = ({
               rel="noreferrer"
             >
               {video1.title}
-            </a>
-          </li>
-          <li>
-            <a
-              className={styles.link}
-              style={{ backgroundColor: color }}
-              href={video2.url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {video2.title}
             </a>
           </li>
           <li>
@@ -75,18 +66,29 @@ const Video = ({
           </li>
           <li>
             <a
+              className={styles.link}
+              style={{ backgroundColor: color }}
+              href={video5.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {video5.title}
+            </a>
+          </li>
+          <li>
+            <a
               className={styles.link + " " + styles.courseLink}
               href={courseUrl}
               target="_blank"
               rel="noreferrer"
             >
-              Take The Whole Course On Youtube
+              Take The Whole Course On YouTube
             </a>
           </li>
         </ul>
       </div>
       <div className={styles.frame}>
-        <iframe title={title} src="https://www.youtube.com/embed/47jfyN4fuP4" />
+        <iframe title={title} src={iframeUrl} />
       </div>
     </div>
   );

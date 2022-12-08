@@ -7,10 +7,19 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+const path = require(`path`);
+
 module.exports = {
   plugins: [
-    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`, // Needed for dynamic images,
     {
       resolve: `gatsby-plugin-scroll-reveal`,

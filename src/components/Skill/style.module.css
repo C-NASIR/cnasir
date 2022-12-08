@@ -22,3 +22,26 @@
   border-radius: 0.5em;
   width: 30em;
 }
+
+/* This is for tablets */
+@media only screen and (max-width: 1000px) {
+  .skill {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 2em;
+  }
+
+  .info {
+    width: 90%;
+  }
+
+  .image {
+    height: 30em;
+    width: 70%;
+  }
+
+  .staticImage {
+    width: 100%;
+  }
+}

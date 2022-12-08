@@ -9,7 +9,15 @@ import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "10em" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "10em",
+        maxWidth: "1440px",
+        margin: "auto",
+      }}
+    >
       <IntroPage />
       <Projects />
       <Videos />

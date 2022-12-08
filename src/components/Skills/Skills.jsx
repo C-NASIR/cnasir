@@ -18,7 +18,7 @@ const data = [
       "Gatsby",
       "Responsive Web",
     ],
-    name: "frontend",
+    image: "frontend.svg",
   },
   {
     title: "Back-End Development Skills",
@@ -33,7 +33,7 @@ const data = [
       "PostgreSQL",
       "Amazon Web Services (AWS)",
     ],
-    name: "backend",
+    image: "backend.svg",
   },
   {
     title: "Other Development Skills",
@@ -47,7 +47,7 @@ const data = [
       "Performance Patterns",
       "Mobile App Development",
     ],
-    name: "others",
+    image: "others.svg",
   },
 ];
 
@@ -59,7 +59,7 @@ const Skills = () => {
           title={obj.title}
           description={obj.description}
           skills={obj.skills}
-          name={obj.name}
+          image={obj.image}
         />
       ))}
     </div>
