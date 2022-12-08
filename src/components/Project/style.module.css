@@ -9,6 +9,8 @@
   width: 40%;
   height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .list {
@@ -24,13 +26,16 @@
 
 .sourcecode {
   text-decoration: none;
+  margin: 1em 0em;
 }
 
 .weblink {
   width: 100%;
+  display: block;
   background-color: cornflowerblue;
   padding: 1em 2em;
   color: white;
+  text-decoration: none;
 }
 
 .weblink:hover {

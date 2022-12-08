@@ -2,32 +2,48 @@ import React from "react";
 import Pill from "../pill/Pill";
 import * as styles from "./style.module.css";
 
-const Project = ({ websiteUrl }) => {
+const Project = ({
+  websiteUrl = "",
+  skills = [],
+  title = "",
+  description = "",
+  uses = [],
+  sourceUrl = "",
+}) => {
   return (
     <div className={styles.project}>
       <div className={styles.info}>
-        <h2> Music App </h2>
-        <p> This is a music application built with React js </p>
-        <p> It is Interactive. Go a head. </p>
+        <h2> {title} </h2>
+        <p> {description} </p>
         <h3> Uses </h3>
         <ul className={styles.list}>
-          <li>
-            You can Scroll through favorite artists and click on the one you
-            like
-          </li>
-          <li> You can search for an artists</li>
+          {uses.map((text, index) => (
+            <li key={index}> {text}</li>
+          ))}
         </ul>
         <h3> Tech Stack </h3>
         <div className={styles.tech}>
-          <Pill text="Create React App" />
-          <Pill text="JavaScript " />
-          <Pill text="Modular CSS" />
-          <Pill text="Restful API" />
+          {skills.map((text, index) => (
+            <Pill text={text} key={index} />
+          ))}
         </div>
-        <a className={styles.sourcecode} href="" Source code>
+        <p> It is Interactive. Go a head. </p>
+        <a
+          className={styles.sourcecode}
+          href={sourceUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
           Source Code
         </a>
-        <p className={styles.weblink}> Visit The Web Application </p>
+        <a
+          className={styles.weblink}
+          href={websiteUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit The Web Application
+        </a>
       </div>
       <div className={styles.frame}>
         <iframe src={websiteUrl} />

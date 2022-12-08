@@ -19,18 +19,19 @@
   gap: 1em;
 }
 
-.listItem {
-  background-color: orange;
-  padding: 1em 2em;
-}
-
-.listItem:hover {
-  cursor: pointer;
-}
-
 .link {
   text-decoration: none;
   color: white;
+  padding: 1em 2em;
+  display: block;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.courseLink {
+  background: linear-gradient(83deg, rgb(58 13 188), rgb(188, 14, 158));
 }
 
 .frame {
