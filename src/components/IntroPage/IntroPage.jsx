@@ -3,17 +3,22 @@ import Typewriter from "typewriter-effect";
 
 import * as styles from "./style.module.css";
 
+const TEXTS = [
+  "Hi Human! Welcome.",
+  "I am <strong> Nasir</strong>. Nice to Meet You",
+  "Scroll Down!",
+];
 const IntroPage = () => {
   return (
     <div className={"page " + styles.intro}>
-      <p className={styles.nice}> Hi !. I am Nasir. Nice to Meet You (👇)</p>
-      {/* <Typewriter
+      <Typewriter
+        className={styles.nice}
         options={{
-          strings: [TEXT],
+          strings: TEXTS,
           autoStart: true,
           loop: true,
         }}
-      /> */}
+      />
     </div>
   );
 };
