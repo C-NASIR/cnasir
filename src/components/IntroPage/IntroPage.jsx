@@ -12,7 +12,6 @@ const IntroPage = () => {
   return (
     <div className={"page " + styles.intro}>
       <Typewriter
-        className={styles.nice}
         options={{
           strings: TEXTS,
           autoStart: true,
