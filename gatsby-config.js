@@ -22,7 +22,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`, // Needed for dynamic images,
     {
-      resolve: `gatsby-plugin-scroll-reveal`,
+      resolve: `gatsby-plugin-scroll-reveal-fixed`,
       options: {
         threshold: 1, // Percentage of an element's area that needs to be visible to launch animation
         once: true, // Defines if animation needs to be launched once
